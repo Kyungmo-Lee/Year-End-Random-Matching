@@ -27,12 +27,6 @@
       "database_id": "00000000-0000-0000-0000-000000000000",
       "migrations_dir": "migrations",
     },
-    {
-      "binding": "gift_exchange_prod",
-      "database_name": "gift-exchange-prod",
-      "database_id": "9a8583f8-686d-4e67-8bbf-e44e95b4712b",
-      "remote": true,
-    },
   ],
   "env": {
     "production": {
