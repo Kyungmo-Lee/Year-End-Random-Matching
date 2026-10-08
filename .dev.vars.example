@@ -1,0 +1,8 @@
+# 로컬 개발용 secret 예제. `npm run setup:local` 이 실제 .dev.vars 를 자동으로 만든다.
+# 직접 만들려면 이 파일을 .dev.vars 로 복사하고 값을 채운다. .dev.vars 는 저장소에 올리지 않는다.
+
+# 32바이트 이상의 무작위 값(예: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))")
+SESSION_SECRET="<무작위 hex 64자>"
+
+# `npm run hash-password` 의 출력 값
+ADMIN_PASSWORD_HASH="pbkdf2-sha256:100000:<saltHex>:<hashHex>"
